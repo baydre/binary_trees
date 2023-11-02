@@ -60,5 +60,16 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 /* Task #9 */
 size_t binary_tree_height(const binary_tree_t *tree);
 
+/* Task #10 */
+size_t binary_tree_depth(const binary_tree_t *tree);
+
+/* Task #11 */
+size_t binary_tree_size(const binary_tree_t *tree);
+
+/* Task #12 */
+size_t binary_tree_leaves(const binary_tree_t *tree);
+
+/* Task #13 */
+size_t binary_tree_nodes(const binary_tree_t *tree);
 
 #endif
